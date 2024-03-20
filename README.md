@@ -19,11 +19,11 @@ In this small project, build out this Single Price Grid Component and get it loo
 
 ### Screenshot
 - Desktop  
-  ![Screenshot 2024-03-20 132400](https://github.com/aratidsa/Single-Price-Grid-Frontend-Mentor/assets/128802362/cb8c7e1b-2554-4505-b396-f7f5de80e1fa)
+![Screenshot 2024-03-20 144034](https://github.com/aratidsa/Single-Price-Grid-Frontend-Mentor/assets/128802362/86a4fe2b-aa2b-44d6-a9b1-fca14a39ea78)
 
 - Mobile  
-![Screenshot 2024-03-20 132433](https://github.com/aratidsa/Single-Price-Grid-Frontend-Mentor/assets/128802362/494be684-5972-4ff4-a50b-4a070039ae66)
-![Screenshot 2024-03-20 132446](https://github.com/aratidsa/Single-Price-Grid-Frontend-Mentor/assets/128802362/acde8b21-0f6e-4081-a854-234b7eaba1bb)
+![Screenshot 2024-03-20 144306](https://github.com/aratidsa/Single-Price-Grid-Frontend-Mentor/assets/128802362/cbfeef6a-f0b1-43b2-9abd-479fe000a73c)
+![Screenshot 2024-03-20 144358](https://github.com/aratidsa/Single-Price-Grid-Frontend-Mentor/assets/128802362/4fdf2bc4-30ee-47d1-a9d0-5fc383832be4)
 
 ### Links
 
