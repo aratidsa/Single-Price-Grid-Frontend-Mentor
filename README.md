@@ -28,7 +28,7 @@ In this small project, build out this Single Price Grid Component and get it loo
 ### Links
 
 - Solution URL: https://github.com/aratidsa/Single-Price-Grid-Frontend-Mentor
-- Live Site URL: 
+- Live Site URL: https://design-single-price-grid-component.netlify.app/
 
 ## My process
 
