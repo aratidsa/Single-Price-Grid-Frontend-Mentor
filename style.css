@@ -1,0 +1,285 @@
+/* RESET */
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+img
+{
+    max-width: 100%;
+    display: block;
+}
+button
+{
+    font:inherit;
+}
+
+/* CUSTOM PROPERTIES */
+:root{
+    /* COLOR */
+    --clr-cyan: hsl(179, 62%, 43%);
+    --clr-light-cyan:hsl(179, 58%, 50%);
+    --clr-bright-yellow: hsl(71, 73%, 54%);
+    --clr-light-gray: hsl(204, 43%, 93%);
+    --clr-grayish-blue: hsl(218, 22%, 67%);
+    --clr-white:hsl(180,100%,100%);
+
+    /* FONT SIZE */
+    --fs-16:1rem;
+
+    /* FONT FAMILY */
+    --ff-karla: "Karla", sans-serif;
+
+    /* FONT WEIGHT */
+    --fw-400:400;
+    --fw-700:700;
+}
+
+/* BODY */
+body{
+    height:100vh;
+    font-family: var(--ff-karla);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    line-height: 1.5;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--clr-light-gray);
+}
+
+/* COMPONENTS */
+/* Container */
+.container
+{
+    width:39.69rem;
+    height:29.69rem;
+    background-color: var(--clr-white);
+    border-radius: 0.63rem;
+    margin-top:6.88rem;
+}
+/* Details */
+.details  {
+    height:10rem;
+    padding-left:2.5rem;
+    padding-right:4.06rem;
+    padding-top:0.94rem;
+}
+/* h1 */
+h1{
+    font-size:1.5rem;
+    color:var(--clr-cyan);
+}
+/* Period */
+.period
+{
+    font-size:1.13rem;
+    font-weight: var(--fw-700);
+    color:var(--clr-bright-yellow);
+}
+/* Description */
+.description
+{
+    color:var(--clr-grayish-blue);
+    margin-top:-0.63rem;
+}
+/* Grid */
+.display-grid
+{
+    display: grid;
+    grid-template-columns: 19.84rem 19.84rem;
+    padding-top:2.5rem;
+    grid-template-rows: 16.25rem;
+    
+}
+/* Grid 1 */
+.grid-item1
+{
+    background-color: var(--clr-cyan);
+    border-bottom-left-radius: 0.63rem;
+}
+/* Subscription */
+.subscription
+{
+    font-size:1.13rem;
+    color:var(--clr-light-gray);
+    margin-left:2.5rem;
+    margin-top:2.5rem;
+    font-weight: var(--fw-700);
+}
+/* Money Per month */
+.per-month
+{
+    margin-left:2.5rem;
+    color:var(--clr-light-gray);
+    margin-top: -0.63rem;
+}
+/* Dollar Sign */
+.dollar
+{
+    font-size:1.88rem;
+    font-weight: var(--fw-700);
+}
+/* Month text */
+.month{
+    margin-left:0.94rem;
+    margin-top:-1.25rem;
+    color: hsl(210, 2%, 84%);
+}
+/* Access */
+.access
+{
+    color:var(--clr-light-gray); 
+    margin-left:2.5rem;
+    margin-top:-0.94rem;
+}
+/* Sign Up Button */
+.sign-up
+{
+    margin-left:2.5rem;
+    margin-top:0.63rem;
+    padding:0.63rem 0.63rem 0.94rem 0.63rem;
+    width:14.88rem;
+    border:none;
+    outline:none;
+    background-color: var(--clr-bright-yellow);
+    color:var(--clr-light-gray); 
+    border-radius: 0.31rem;
+    font-weight: var(--fw-700);
+    cursor:pointer;
+    text-align: center;
+}
+/* Sign Up Hover */
+.sign-up:hover
+{
+    background-color: var(--clr-light-gray);
+    color:var(--clr-bright-yellow);
+    
+}
+/* Grid 2 */
+.grid-item2
+{
+    background-color: var(--clr-light-cyan);
+    border-bottom-right-radius: 0.63rem;
+}
+/* Why Us */
+.us{
+    font-size:1.13rem;
+    color:var(--clr-light-gray);
+    margin-left:2.5rem;
+    margin-top:2.5rem;
+    font-weight: var(--fw-700);
+}
+/* Tutorial */
+.tutorial
+{
+    color: hsl(180, 2%, 89%);
+    margin-left:2.5rem;
+    margin-top:-0.31rem;
+    font-size: 0.88em;
+    margin-right:4.38rem;
+
+}
+/* Footer */
+footer{
+    text-align: center;
+    font-size:0.81rem;
+    font-weight: var(--fw-700);
+}
+/* Attribution */
+.attribution a
+{
+   color:var(--clr-cyan);
+   text-decoration: none;
+}
+/* Mobile Screen */
+@media screen and (max-width:600px) {
+    /* Container */
+    .container
+   {
+    width:20.63rem;
+    height:29.69rem;
+   }
+    /* Details */
+    .details  {
+    height:14.38rem;
+    padding-left:2.5rem;
+    padding-right:1.25rem;
+    padding-top:0.94rem;
+   }
+   /* h1 */
+    h1{
+    font-size:1.38rem;
+    }
+    /* Period */
+    .period{
+    font-size:0.94rem;  
+    }
+    /* Description */
+    .description{
+    margin-top:1.25rem;
+    font-size:0.88em;
+    line-height: 1.8;
+    }
+    /* Grid */
+    .display-grid{
+    display: grid;
+    grid-template-columns: 20.63rem;
+    padding-top:2.5rem;
+    grid-template-rows: 14.06rem 13.44rem;    
+    }
+    /* Grid 1 */
+    .grid-item1{ 
+    border-bottom-left-radius: 0px;
+    }
+    /* Subscription */
+   .subscription{
+    margin-top:1.25rem;
+   }
+   /* Dollar Per Month */
+    .per-month {
+    margin-top: -0.63rem;
+    }
+    /* Month */
+   .month{
+    color: hsl(210, 2%, 84%);
+    }
+    /* Sign Up button */
+   .sign-up{
+    margin-left:1.25rem;
+    margin-top:0.63rem;
+    padding:0.63rem 2.5rem 0.94rem 3.75rem;
+    width:18.13rem;
+    text-align: center;
+   }
+   /* span */
+   .sign-up span{
+    margin-left:-1.56rem;
+   }
+   /* Grid 2 */
+    .grid-item2{
+    border-bottom-right-radius: 0.63rem;
+    border-bottom-left-radius: 0.63rem;
+   }
+   /* Why us */
+   .us{
+    font-size:1.13rem;
+    margin-left:2.5rem;
+    margin-top:1.25rem;
+   }
+   /* Tutorial */
+   .tutorial{
+    color: hsl(180, 2%, 89%);
+    margin-left:2.5rem;
+    margin-top:-0.31rem;
+    font-size: 0.81rem;
+    margin-right:6.88rem;
+   }
+   /* Footer */
+   footer{
+    font-size:0.81rem;
+    margin-top:15rem;
+  }
+}
