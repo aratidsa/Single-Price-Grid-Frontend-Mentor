@@ -27,7 +27,7 @@ In this small project, build out this Single Price Grid Component and get it loo
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/aratidsa/Single-Price-Grid-Frontend-Mentor
 - Live Site URL: 
 
 ## My process
